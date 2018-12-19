@@ -1,0 +1,18 @@
+
+.navbar {
+  /* opacity: 0.1; */
+  background:rgba(0,0,0,0.5);
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(254,248,81,.5);
+}
+
+a  {
+  text-decoration: none;
+  color: #aa000b;
+  opacity: 1;
+}
+a:hover {
+  color: red;
+}

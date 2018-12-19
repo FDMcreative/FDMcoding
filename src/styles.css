@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* importing bootstrap css file from node module folder*/
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* NOT WORKING ??? had to Import via CDN*/
+/* importing font-awesome css file from node module folder*/
+/* @import "~font-awesome/css/font-awesome.css"; */
+
+body {
+  background-color: black;
+}
+
+a  {
+  text-decoration: none;
+}

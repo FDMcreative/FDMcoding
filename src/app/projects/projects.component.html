@@ -1,0 +1,30 @@
+
+
+<h2>{{ title }}</h2>
+
+<div *ngIf="projects.length > 0">
+  <h3>These are {{ projects.length }} projects I made</h3>
+</div>
+<div *ngIf="projects.length == 0">
+  <h3>These are no projects, sorry !</h3>
+</div>
+
+  <div class="row" *ngFor="let project of projects">
+
+    <div class="col-md-5">
+      <p>{{ project.description }}</p>
+    </div>
+
+    <bootstrap-card class="col-md-5">
+
+      <div class="header">
+        {{ project.title | uppercase }}
+      </div>
+
+      <div class="image">
+        <img class="card-img-top" src="{{ project.image }}" alt="{{ project.title }}">
+      </div>
+
+    </bootstrap-card>
+
+  </div>
