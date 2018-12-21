@@ -1,0 +1,24 @@
+
+div {
+  font-family: "Courier New";
+  color: Silver;
+}
+
+.container {
+  margin-top: 4vw;
+  margin-bottom: 3vw;
+}
+
+@media only screen and (max-width: 758px) {
+
+  .container {
+    margin-bottom: 7vw;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  .container {
+    margin-bottom: 10vw;
+  }
+}

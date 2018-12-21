@@ -1,13 +1,15 @@
 
+<div class="container">
 
-<h2>{{ title }}</h2>
+  <h2>{{ title }}</h2>
 
-<div *ngIf="projects.length > 0">
-  <h3>These are {{ projects.length }} projects I made</h3>
-</div>
-<div *ngIf="projects.length == 0">
-  <h3>These are no projects, sorry !</h3>
-</div>
+  <div *ngIf="projects.length > 0">
+    <h3>These are {{ projects.length }} projects I made</h3>
+  </div>
+
+  <div *ngIf="projects.length == 0">
+    <h3>These are no projects, sorry !</h3>
+  </div>
 
   <div class="row" *ngFor="let project of projects">
 
@@ -28,3 +30,5 @@
     </bootstrap-card>
 
   </div>
+
+</div>

@@ -1,0 +1,40 @@
+div {
+  font-family: "Courier New";
+  color: Silver;
+}
+
+h5 {
+  color: white;
+}
+h6 {
+  /* font-weight: bold; */
+  color: LightGrey;
+}
+
+li {
+  border-top: 1px solid #aa000b;
+  background-color: transparent;
+}
+
+p {
+  padding-left: 1em;
+}
+
+.container {
+  margin-top: 4vw;
+  margin-bottom: 3vw;
+}
+
+@media only screen and (max-width: 758px) {
+
+  .container {
+    margin-bottom: 7vw;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  .container {
+    margin-bottom: 10vw;
+  }
+}

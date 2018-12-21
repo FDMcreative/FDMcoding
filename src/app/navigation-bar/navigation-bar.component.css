@@ -1,18 +1,46 @@
 
-.navbar {
-  /* opacity: 0.1; */
-  background:rgba(0,0,0,0.5);
+nav {
+  background:rgba(0,0,0,.5);
   z-index: 1;
-  color: white;
+  font-family: "Courier New";
+  color: blue;
   font-weight: bold;
-  border-bottom: 1px solid rgba(254,248,81,.5);
+  border-bottom: 1px solid rgba(254,248,81,0.5);
+  /* text-align: center; */
+  height: 4vw;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  text-align: center;
 }
 
 a  {
   text-decoration: none;
-  color: #aa000b;
+  color: rgb(102,255,102);
   opacity: 1;
+  letter-spacing: 0.1em;
 }
 a:hover {
-  color: red;
+  color: Green;
+}
+
+@media only screen and (max-width: 758px) {
+
+  nav {
+    height: 7vw;
+    /* font-size: 0.85em; */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  nav {
+    height: 10vw;
+    /* font-size: 0.7em; */
+  }
 }
