@@ -1,4 +1,10 @@
 
+.row {
+  margin-bottom: 6%;
+  padding-bottom: 3%;
+  border-bottom: 1px solid Silver;
+}
+
 div {
   font-family: "Courier New";
   color: Silver;
@@ -6,19 +12,19 @@ div {
 
 .container {
   margin-top: 4vw;
-  margin-bottom: 3vw;
+  margin-bottom: 5vw;
 }
 
 @media only screen and (max-width: 758px) {
 
   .container {
-    margin-bottom: 7vw;
+    margin-bottom: 11vw;
   }
 }
 
 @media only screen and (max-width: 576px) {
 
   .container {
-    margin-bottom: 10vw;
+    margin-bottom: 14vw;
   }
 }

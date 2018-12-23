@@ -7,10 +7,17 @@
 /* importing font-awesome css file from node module folder*/
 /* @import "~font-awesome/css/font-awesome.css"; */
 
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+
 body {
   background-color: black;
 }
 
 a  {
   text-decoration: none;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
 }

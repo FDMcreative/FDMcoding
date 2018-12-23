@@ -1,7 +1,8 @@
 
 
 footer {
-  font-family: "Courier New";
+  /* font-family: "Courier New"; */
+  font-family: 'IBM Plex Mono', monospace;
   color: Silver;
   /* position: fixed; */
   /* left: 0; */

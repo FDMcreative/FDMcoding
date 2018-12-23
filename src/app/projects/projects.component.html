@@ -11,9 +11,9 @@
     <h3>These are no projects, sorry !</h3>
   </div>
 
-  <div class="row" *ngFor="let project of projects">
+  <div class="row justify-content-center" *ngFor="let project of projects">
 
-    <div class="col-md-5">
+    <div class="vertical-align col-md-5" align="center">
       <p>{{ project.description }}</p>
     </div>
 
@@ -24,7 +24,7 @@
       </div>
 
       <div class="image">
-        <img class="card-img-top" src="{{ project.image }}" alt="{{ project.title }}">
+        <img class="card-img-bottom" src="{{ project.image }}" alt="{{ project.title }}">
       </div>
 
     </bootstrap-card>
