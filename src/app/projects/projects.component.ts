@@ -8,7 +8,7 @@ import { ProjectsService } from '../services/projects.service';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  title = 'This is the project page';
+  title = 'What have I done?';
   projects;
 
   // to implement the service to call our projects

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-  title = 'This is the contact page';
+  title = 'Where am I?';
 
   constructor() { }
 

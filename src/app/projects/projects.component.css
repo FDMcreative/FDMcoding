@@ -4,10 +4,17 @@
   padding-bottom: 3%;
   border-bottom: 1px solid Silver;
 }
+.row:last-child{
+  border-bottom: 0;
+}
 
 div {
   font-family: "Courier New";
   color: Silver;
+}
+
+h2 {
+  text-align: center;
 }
 
 .container {
