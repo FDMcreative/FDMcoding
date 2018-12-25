@@ -21,6 +21,10 @@ h2 {
   text-align: center;
 }
 
+h5 {
+  opacity: 0.9;
+}
+
 p {
   padding-top: 10px;
 }
@@ -30,7 +34,20 @@ p {
   margin-bottom: 5vw;
 }
 
+.col-md-1 {
+  border-right: 1px solid red;
+  opacity: .5;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
 @media only screen and (max-width: 758px) {
+
+  h5 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
 
   .container {
     margin-bottom: 11vw;
@@ -38,6 +55,10 @@ p {
 
   .row {
     flex-direction: column-reverse;
+  }
+
+  .col-md-1 {
+    display: none;
   }
 }
 
