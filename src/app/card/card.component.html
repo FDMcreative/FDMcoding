@@ -3,13 +3,13 @@
 <!-- that's why we define the content in app.component.html -->
 <!-- and here we only link with ng-content  -->
 
-<div class="bg-transparent card text-center">
+<div class="card text-center">
 
   <div class="card-header">
     <!-- we inject the content dinamically with a custom element defined in angular -->
     <ng-content select=".header"></ng-content>
   </div>
-  
+
   <ng-content select=".image"></ng-content>
   <!-- ngContent example -->
 

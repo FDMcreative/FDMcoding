@@ -3,6 +3,9 @@
   margin-bottom: 6%;
   padding-bottom: 3%;
   border-bottom: 1px solid Silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .row:last-child{
   border-bottom: 0;
@@ -18,6 +21,10 @@ h2 {
   text-align: center;
 }
 
+p {
+  padding-top: 10px;
+}
+
 .container {
   margin-top: 4vw;
   margin-bottom: 5vw;
@@ -27,6 +34,10 @@ h2 {
 
   .container {
     margin-bottom: 11vw;
+  }
+
+  .row {
+    flex-direction: column-reverse;
   }
 }
 
