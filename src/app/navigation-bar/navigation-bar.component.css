@@ -1,15 +1,16 @@
 
 
 nav {
-  background:rgba(0,0,0,.5);
-  z-index: 1;
+  background:rgba(0,0,0,1);
+  z-index: 3;
   /* font-family: "Courier New"; */
   font-family: 'IBM Plex Mono', monospace;
   color: blue;
   /* font-weight: bold; */
-  border-bottom: 1px solid rgba(254,248,81,0.5);
+  /* border-bottom: 1px solid rgba(254,248,81,0.5); */
   /* text-align: center; */
   height: 4vw;
+  box-shadow: 0px 0px 15px black;
 }
 
 ul {
