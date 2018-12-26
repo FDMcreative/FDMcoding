@@ -1,6 +1,10 @@
 {
   "name": "fdmcoding",
   "version": "0.0.0",
+  "engines" : {
+    "npm" : "6.4.1",
+    "node" : "9.11.1"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
