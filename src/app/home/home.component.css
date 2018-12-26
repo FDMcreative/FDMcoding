@@ -104,34 +104,26 @@ h5 span {
 }
 
 /* FadeIn-Shadow Animation  */
-.fadein-shadow-animation {
- -webkit-animation: fadein-shadow-animation 3s 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; /* Safari, Chrome and Opera > 12.1 */
-         animation: fadein-shadow-animation 3s 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+.fadein-shadow {
+ -webkit-animation: fadein-shadow 3s 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; /* Safari, Chrome and Opera > 12.1 */
+         animation: fadein-shadow 3s 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
-@@-webkit-keyframes fadein-shadow-animation {
+@@-webkit-keyframes fadein-shadow {
   0% {
-    -webkit-transform: translateZ(-80px);
-            transform: translateZ(-80px);
     opacity: 0;
     text-shadow: 0 0 0 rgba(0, 0, 0, 0);
   }
   100%   {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
     opacity: 0.8;
     text-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
   }
 }
-@keyframes fadein-shadow-animation {
+@keyframes fadein-shadow {
   from {
-    -webkit-transform: translateZ(-80px);
-            transform: translateZ(-80px);
     opacity: 0;
     text-shadow: 0 0 0 rgba(0, 0, 0, 0);
   }
   to   {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
     opacity: 0.8;
     text-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
   }
