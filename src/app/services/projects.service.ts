@@ -14,7 +14,7 @@ export class ProjectsService {
   }, {
     title: "EJS Instagram-like App",
     image: "assets/images/instagram-clone-ejs.jpg",
-    description: "A single page app similar to Instagram whih makes use of EJS",
+    description: "A single page app similar to Instagram which makes use of EJS",
     link: "https://github.com/FDMcreative/instagram-clone-ejs"
   }, {
     title: "Angular Instagram-like App",
