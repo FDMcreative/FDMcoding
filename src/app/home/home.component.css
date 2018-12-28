@@ -91,7 +91,7 @@ h5 span {
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 @keyframes fade-in {
@@ -99,54 +99,59 @@ h5 span {
     opacity: 0;
   }
   100% {
-    opacity: 1;
-  }
-}
-
-/* FadeIn Animation TITLE */
-.fadein-title {
- -webkit-animation: fadein-title 3s 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; /* Safari, Chrome and Opera > 12.1 */
-         animation: fadein-title 3s 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-@@-webkit-keyframes fadein-title {
-  0% {
-    opacity: 0;
-  }
-  100%   {
-    opacity: 0.8;
-  }
-}
-@keyframes fadein-title {
-  from {
-    opacity: 0;
-  }
-  to   {
     opacity: 0.8;
   }
 }
 
-/* FadeIn-Shadow Animation  */
-.fadein-shadow {
- -webkit-animation: fadein-shadow 3s 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; /* Safari, Chrome and Opera > 12.1 */
-         animation: fadein-shadow 3s 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-@@-webkit-keyframes fadein-shadow {
+/* Focus-in Animation TITLE */
+@-webkit-keyframes text-focus-in {
   0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
     opacity: 0;
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
   }
-  100%   {
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
     opacity: 0.8;
-    text-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
   }
 }
-@keyframes fadein-shadow {
-  from {
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
     opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 0.8;
+  }
+}
+.text-focus-in {
+	-webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.9s both;
+	        animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.9s both;
+}
+
+
+/* Shadow Animation TITLE */
+@-webkit-keyframes text-shadow-drop-center {
+  0% {
     text-shadow: 0 0 0 rgba(0, 0, 0, 0);
   }
-  to   {
-    opacity: 0.8;
-    text-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
   }
+}
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+.text-shadow-drop-center {
+	-webkit-animation: text-shadow-drop-center 1s 3s both;
+	        animation: text-shadow-drop-center 1s 3s both;
 }
