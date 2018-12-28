@@ -81,7 +81,7 @@ h5 span {
   color: #aa000b;
 }
 
-/* Simple FadeIn Animation  */
+/* FadeIn Animation FACE */
 .fade-in {
 	-webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -100,6 +100,28 @@ h5 span {
   }
   100% {
     opacity: 1;
+  }
+}
+
+/* FadeIn Animation TITLE */
+.fadein-title {
+ -webkit-animation: fadein-title 3s 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; /* Safari, Chrome and Opera > 12.1 */
+         animation: fadein-title 3s 1.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@@-webkit-keyframes fadein-title {
+  0% {
+    opacity: 0;
+  }
+  100%   {
+    opacity: 0.8;
+  }
+}
+@keyframes fadein-title {
+  from {
+    opacity: 0;
+  }
+  to   {
+    opacity: 0.8;
   }
 }
 
