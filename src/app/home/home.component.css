@@ -51,7 +51,6 @@ img {
 }
 
 h1 {
-  /* padding-top: 20px; */
   font-family: 'Lazer84';
   color: #aa000b;
   font-size: 11vw;
@@ -69,8 +68,6 @@ h5 {
   color: white;
   font-size: 2vw;
   letter-spacing: 0.1em;
-  /* padding-left: 25%;
-  padding-top: 30%; */
 }
 
 h1 span {

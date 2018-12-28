@@ -1,7 +1,6 @@
 
 
 div {
-  /* font-family: "Courier New"; */
   font-family: 'IBM Plex Mono', monospace;
   color: Silver;
 }
@@ -10,7 +9,6 @@ h5 {
   color: white;
 }
 h6 {
-  /* font-weight: bold; */
   color: LightGrey;
 }
 
