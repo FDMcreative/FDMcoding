@@ -81,6 +81,10 @@ h5 span {
   color: #aa000b;
 }
 
+
+/* ANIMATIONS */
+
+
 /* FadeIn Animation FACE */
 .fade-in {
 	-webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -131,27 +135,4 @@ h5 span {
 .text-focus-in {
 	-webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.9s both;
 	        animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.9s both;
-}
-
-
-/* Shadow Animation TITLE */
-@-webkit-keyframes text-shadow-drop-center {
-  0% {
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
-  }
-}
-@keyframes text-shadow-drop-center {
-  0% {
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
-  }
-}
-.text-shadow-drop-center {
-	-webkit-animation: text-shadow-drop-center 1s 3s both;
-	        animation: text-shadow-drop-center 1s 3s both;
 }
