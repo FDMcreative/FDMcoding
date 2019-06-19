@@ -10,7 +10,7 @@ export class ProjectsService {
     {
       title: "Angular App for GDPR & ISOs Certifications",
       image: "assets/images/gdpr-isos-angular-app.jpg",
-      description: "This is a web app geared towards HR professionals which makes use of Angular, Material Desing and Bootstrap.",
+      description: "This is a web app geared towards HR professionals which makes use of Angular, Angular Material and Bootstrap.",
       // link: "https://github.com/FDMcreative/instagram-clone-angularjs"
     }, {
       title: "AngularJS Instagram-like App",
