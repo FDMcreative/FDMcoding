@@ -19,8 +19,8 @@ a:hover {
 }
 
 .container {
-  margin-top: 4vw;
-  margin-bottom: 3vw;
+  margin-top: 4vh;
+  margin-bottom: 3vh;
   text-shadow: 0px 0px 10px black;
 }
 
@@ -34,14 +34,14 @@ a:hover {
 
 @media only screen and (max-width: 758px) {
 
-  .container {
+  /* .container {
     margin-bottom: 7vw;
-  }
+  } */
 }
 
 @media only screen and (max-width: 576px) {
 
-  .container {
+  /* .container {
     margin-bottom: 10vw;
-  }
+  } */
 }
