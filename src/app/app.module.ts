@@ -31,12 +31,12 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-  { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'projects', component: ProjectsComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: '**', component: NotFoundComponent }
-])
+      { path: '', component: HomeComponent },
+      { path: 'about', component: AboutComponent },
+      // { path: 'projects', component: ProjectsComponent },
+      { path: 'contact', component: ContactComponent },
+      { path: '**', component: NotFoundComponent }
+    ])
   ],
   providers: [
     ProjectsService

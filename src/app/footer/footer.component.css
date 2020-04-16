@@ -1,5 +1,3 @@
-
-
 footer {
   font-family: 'Montserrat', sans-serif;
   color: Silver;
@@ -7,15 +5,15 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 4vw;
-  line-height: 4vw;
-  background:rgb(0,0,0);
+  height: 5vh;
+  /* line-height: 4vh; */
+  background: rgb(0, 0, 0);
   color: white;
   box-shadow: 0px 0px 1px DarkGrey;
   z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   opacity: 0.95;
   text-shadow: 0px 0px 10px black;
 }
@@ -34,21 +32,27 @@ a {
   font-weight: bolder;
 }
 
+.left,
+.right {
+  padding: 5px;
+}
+
 .left p {
   font-family: 'Georgia', serif;
   font-style: italic;
   letter-spacing: 0.1em;
 }
+
 .left span {
   color: #aa000b;
 }
 
-@media only screen and (max-width: 758px) {
+@media only screen and (max-width: 790px) {
 
   footer {
     flex-direction: column;
     justify-content: center;
-    height: 7vw;
+    height: 7vh;
     font-size: 0.85em;
   }
 }
@@ -56,81 +60,91 @@ a {
 @media only screen and (max-width: 576px) {
 
   footer {
-    height: 10vw;
+    height: 6vh;
     font-size: 0.7em;
   }
 }
 
 /* Heartbeat Animation */
 .heartbeat {
-	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
-	        animation: heartbeat 1.5s ease-in-out infinite both;
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+  animation: heartbeat 1.5s ease-in-out infinite both;
 }
+
 @-webkit-keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-transform-origin: center center;
-            transform-origin: center center;
+    transform-origin: center center;
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
+
   10% {
     -webkit-transform: scale(0.91);
-            transform: scale(0.91);
+    transform: scale(0.91);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
+
   17% {
     -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    transform: scale(0.98);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
+
   33% {
     -webkit-transform: scale(0.87);
-            transform: scale(0.87);
+    transform: scale(0.87);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
+
   45% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
 }
+
 @keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-transform-origin: center center;
-            transform-origin: center center;
+    transform-origin: center center;
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
+
   10% {
     -webkit-transform: scale(0.91);
-            transform: scale(0.91);
+    transform: scale(0.91);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
+
   17% {
     -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    transform: scale(0.98);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
+
   33% {
     -webkit-transform: scale(0.87);
-            transform: scale(0.87);
+    transform: scale(0.87);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
+
   45% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
 }
